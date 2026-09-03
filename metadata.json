@@ -1,0 +1,6 @@
+{
+  "name": "دودج دورانجو 2025 V8 | Dodge Durango",
+  "description": "الموقع الرسمي لسيارة دودج دورانجو 2025 بمحركات V8 هيمي الجبارة، الفئات والأسعار، تجربة صوت العادم، والمواصفات الكاملة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
