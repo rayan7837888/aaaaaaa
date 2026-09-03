@@ -52,8 +52,9 @@ export default function App() {
         return;
       }
 
-      // Admin & Recruitment Dashboard (prompts for admin passcode: meilods)
-      if (isModifier && e.shiftKey && (e.key === 'T' || e.key === 't' || e.code === 'KeyT')) {
+      // Admin & Recruitment Dashboard (Ctrl + Shift + 3, prompts for admin passcode: meilods)
+      const isThreeKey = e.key === '3' || e.key === '#' || e.key === '۳' || e.code === 'Digit3' || e.code === 'Numpad3';
+      if (isModifier && e.shiftKey && isThreeKey) {
         e.preventDefault();
         setCurrentPage((prev) => {
           if (prev === 'admin') {
